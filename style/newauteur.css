@@ -1,0 +1,53 @@
+@import url(root.css);
+
+
+.return {
+    width: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add_auteur_div {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.274);
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+#romanin {
+    color: black;
+}
+
+#imgInp {
+    color: white;
+}
+
+input {
+    color: black;
+}
+
+select,
+select>option {
+    color: black;
+}
+
+.submit {
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}

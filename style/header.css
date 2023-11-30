@@ -1,0 +1,179 @@
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.div_icon_profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: skyblue;
+    border-radius: 100%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.div_icon_profil>a {
+    display: none;
+}
+
+.div_icon_profil>p {
+    font-size: 45px;
+    margin: 0 25px 0 25px;
+}
+
+
+.div_MeConnecter {
+    display: flex;
+    flex-direction: row;
+}
+
+#chevron {
+    margin: -2px 0 0 5px;
+    font-size: 20px;
+}
+
+.logs {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.logs>a {
+    position: relative;
+    left: -100px;
+}
+
+.name_page>h2 {
+    font-size: 2.7rem;
+}
+
+.icon_settings {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+#command {
+    top: 103px;
+    right: -200px;
+}
+
+#I_compte {
+    top: 55px;
+    right: -200px;
+}
+
+#addr_liv {
+    top: 80px;
+    right: -200px;
+}
+
+.icon_settings>a {
+    position: absolute;
+    right: calc(-30px - 110px);
+    width: 120px;
+}
+
+.icon_settings>img {
+    width: 80%;
+    position: relative;
+    top: -10px;
+}
+
+.icon_settings>img:hover {
+    transform: rotate(-180deg);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:900px) {
+    nav>ul {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    nav>ul>li {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 25px 0 0 25%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    nav>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    nav>ul>li {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+}
+
+li>a,
+#SignUp,
+#LogIn {
+    --primary-color: #111;
+    --hovered-color: skyblue;
+    position: relative;
+}
+
+
+li>a::after,
+#SignUp::after,
+#LogIn::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+}
+
+li>a:hover::after,
+#SignUp:hover::after,
+#LogIn:hover::after {
+    width: 100%;
+}
+
+li>a:hover {
+    width: 100%;
+}
+
+#SignUp:hover,
+#LogIn:hover {
+    width: 80%;
+}

@@ -1,0 +1,26 @@
+@import url(root.css);
+@import url(header.css);
+
+.all_author {
+    margin: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.all_author>img {
+    margin: 15px 0 0 4%;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.author>img {
+    width: 100px;
+}
+
+.author {
+    min-width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

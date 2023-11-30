@@ -1,0 +1,322 @@
+@import url(./root.css);
+@import url(./header.css);
+
+
+
+header>a {
+    position: relative;
+    right: 15px;
+    text-decoration: underline;
+
+}
+
+
+.return {
+    width: 40px;
+}
+
+.last_see {
+    margin-top: 15px;
+    background-color: transparent;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+
+
+.book {
+    min-width: 100px;
+    max-width: 150px;
+    /* Ajustez la largeur de la carte selon vos besoins */
+    max-height: 100%;
+    min-height: 80%;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+
+}
+
+.book>img {
+    height: 150px;
+    max-width: 100px;
+    /* Les images occupent 100% de la largeur de la carte */
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px 0px;
+
+}
+
+
+@media screen and (min-width:900px) {
+    .book>img:hover {
+        transform: translateY(-8px);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .last_see {
+        overflow-x: scroll;
+    }
+}
+
+.Genre_Fav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0.3125rem;
+    background-color: white;
+    border: none;
+    min-width: 100px;
+}
+
+.Romance {
+    background: linear-gradient(97deg, #FF0844 -4.14%, #FFB199 100%);
+}
+
+.Fantaisie {
+    background: linear-gradient(97deg, #EBC0FD 0%, #D9DED8 100%);
+    color: var(--couleur_fond);
+}
+
+.Horreur {
+    background: linear-gradient(98deg, #F60505 0%, #1D0000 100.97%);
+}
+
+.Action {
+    background: linear-gradient(97deg, #F83600 0%, #F9D423 100%);
+}
+
+.Comique {
+    background: linear-gradient(97deg, #F6D365 0%, #FDA085 100%);
+}
+
+.Tragique {
+    background: linear-gradient(97deg, #434343 0%, #000 100%);
+    color: white;
+}
+
+.Aventure {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.Autobiographie {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+}
+
+.Philosophique {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.Science-Fiction {
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+.Théâtral {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+@media screen and (max-width:900px) {
+    .Genre_Fav {
+        overflow-x: scroll;
+    }
+
+}
+
+@media screen and (min-width:900px) {
+    button:hover {
+        transform: translateY(-8px);
+    }
+}
+
+.Favorite_Author {
+    display: flex;
+    align-items: center;
+}
+
+
+.author {
+    max-width: 90px;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author>img {
+    margin: 15px 0 0 20px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width:900px) {
+    .Favorite_Author {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .Favorite_Author>img:hover {
+        transform: translateY(-8px);
+    }
+}
+
+.all_livres {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.all_livres>img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.all_livres>a>img {
+    width: 50px;
+}
+
+
+.all_book_home {
+    margin-top: 15px;
+    background-color: transparent;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:900px) {
+    .all_book_home {
+        overflow-x: scroll;
+    }
+}
+
+.icon_panier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.icon_panier>img {
+    width: 50px;
+    position: relative;
+    top: -4px;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+#nbr_article {
+    z-index: -1;
+    position: relative;
+    top: -44px;
+    left: 3px;
+    color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#log_out_admin {
+    left: 0;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container>h1 {
+    text-align: center;
+}
+
+
+.container>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+    width: 60vw;
+    height: 80vh;
+}
+
+.intern>textarea,
+.intern>input,
+.intern>select,
+.intern>select>option {
+    color: black
+}
+
+.submit {
+    padding: 10px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.edit_author {
+    text-align: center;
+}
+
+.form_edit_author {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.211);
+    border: solid 2px white;
+}
+
+.div_edit_author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.form_edit_author>div>textarea,
+.form_edit_author>div>input,
+.form_edit_author>div>select,
+.form_edit_author>div>select>option {
+    color: black
+}

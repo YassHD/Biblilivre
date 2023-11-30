@@ -1,0 +1,53 @@
+@import url(root.css);
+@import url(header.css);
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+
+.all_Langues {
+    margin-top: 3%;
+}
+
+
+
+.langues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 0.3125rem;
+    border: none;
+    min-width: 80px;
+    height: 40px;
+    background: linear-gradient(97deg, #434343 0%, #000 100%);
+
+}
+
+/* 
+.langues>img {
+    width: 100%;
+    max-width: 90px;
+    height: 100%;
+    border-radius: 0.3125rem;
+} */
+
+@media screen and (min-width:900px) {
+    .all_Langues {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .langues {
+        text-align: center;
+        flex-direction: column;
+    }
+}

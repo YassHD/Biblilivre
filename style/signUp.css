@@ -1,0 +1,106 @@
+@import url(root.css);
+
+.return {
+    width: 40px;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 95px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3F3F3;
+
+
+
+}
+
+.form-group {
+    margin-bottom: 10px;
+    
+}
+
+.element label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+.input {
+    border: 2px solid transparent;
+    width: 16em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    color: #01051A;
+}
+
+.input:hover,
+.input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+
+
+.button-60 {
+    background-color: #01051A;
+    border: 1px solid #a5a4a4;
+    border-radius: 10px;
+    color: #363636;
+    cursor: pointer;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+
+    padding: calc(.5em - 1px) 3em;
+
+}
+
+.btn {
+    text-align: center;
+}
+
+p {
+    color: rgb(124, 125, 126);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.deco {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.iti__country-list .iti__country-name {
+    color: rgb(0, 0, 0); /* Changer la couleur du texte */
+}

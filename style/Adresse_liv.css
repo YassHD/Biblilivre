@@ -1,0 +1,56 @@
+@import url(./root.css);
+
+
+.come_back {
+    width: 45px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.add_lieu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 30vh;
+    border: dashed 3px gray;
+}
+
+.add_lieu>img {
+    width: 60px;
+    filter: grayscale(1);
+}
+
+.My_lieu {
+    width: 25vw;
+    height: 30vh;
+    background-color: #fff;
+    border: solid 3px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.My_lieu>p,
+.My_lieu>h3 {
+    color: black;
+    margin-bottom: 3px;
+}
+
+
+.edit_del {
+    margin-top: 20px;
+}
+
+.edit_del>a {
+    color: #0D1C6B;
+}
+
+.edit_but{
+    cursor: pointer;
+}

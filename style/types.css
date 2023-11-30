@@ -1,0 +1,51 @@
+@import url(root.css);
+@import url(header.css);
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.all_types {
+    width: clamp(400px, 80vw, 800px);
+    height: clamp(500px, 50vh, 900px);
+}
+
+button {
+    margin: 10px 0 0 15px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0.3125rem;
+    background: linear-gradient(97deg, #4FACFE 0%, #00F2FE 100%);
+    border: none;
+    min-width: 100px;
+    min-height: 40px;
+}
+
+/*
+.Journal {
+    background: linear-gradient(97deg, #FDFBFB 0%, #EBEDEE 100%);
+    color: black;
+}
+
+.BD {
+    background: linear-gradient(97deg, #F6D365 0%, #FDA085 100%);
+}
+
+.Manga {
+    background: linear-gradient(97deg, #4FACFE 0%, #00F2FE 100%);
+}
+
+.Magazine {
+    background: linear-gradient(97deg, #FF0844 -4.14%, #FFB199 100%);
+}
+
+.Roman {
+    background: linear-gradient(97deg, #434343 0%, #000 100%);
+}
+
+*/

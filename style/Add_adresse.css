@@ -1,0 +1,81 @@
+@import url(./root.css);
+
+.come_back {
+    width: 45px;
+}
+
+main {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+
+}
+
+.div_ajout {
+    display: flex;
+    flex-direction: column;
+}
+
+h4,
+h2 {
+    margin-top: 15px;
+}
+
+input {
+    border: 2px solid transparent;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin: 5px 0;
+    color: black;
+}
+
+input:hover,
+input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+
+
+
+
+.div_ajout>select,
+.div_ajout>select>option {
+    color: black;
+}
+
+label {
+    margin-top: 15px;
+}
+
+.ville_codePost {
+    display: flex;
+}
+
+.ville {
+    margin-left: 5px;
+}
+
+
+.valid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    align-items: center;
+    background-color: #ededed;
+    border: 1px solid #a5a4a4;
+    border-radius: 10px;
+    color: #000000;
+    height: 2.5em;
+    justify-content: center;
+    padding: calc(.5em - 1px) 3em;
+}

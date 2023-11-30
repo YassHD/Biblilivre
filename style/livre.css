@@ -1,0 +1,164 @@
+@import url(./root.css);
+
+.return {
+    width: 40px;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    /*tel*/
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .main_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        background-color: #ffffff5d;
+        border: solid 3px black;
+        border-radius: 5px;
+        width: 90vw;
+        height: 80vh;
+    }
+
+    .mini_back {
+        position: absolute;
+        z-index: -1;
+        filter: blur(15px);
+        width: 90vw;
+        height: 80vh;
+    }
+
+    .second_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:1001px) {
+
+    /*ordi*/
+    main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main_info {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        background-color: #ffffff5d;
+        border: solid 3px black;
+        border-radius: 5px;
+        width: 25vw;
+        height: 80vh;
+    }
+
+    .mini_back {
+        position: absolute;
+        z-index: -1;
+        filter: blur(15px);
+        width: 25vw;
+        height: 80vh;
+    }
+
+    .second_info {
+        width: 45%;
+    }
+}
+
+
+
+
+
+
+
+.head_card {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head_card>p {
+    color: black;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+
+.main_card>p {
+    color: black;
+
+}
+
+.main_card>img {
+    max-height: 80%;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.foot_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot_card>h3 {
+    color: black;
+}
+
+.foot_card>img {
+    width: 30px;
+}
+
+#date {
+    margin-bottom: 25px;
+}
+
+select {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #ffffff5d;
+    color: black;
+}
+
+option {
+    color: #000000;
+    background-color: #ffffff5d;
+}
+
+.wish {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #ffffff5d;
+    color: black;
+}
+
+
+
+.choix_qte>label {
+    color: black;
+}

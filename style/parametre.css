@@ -1,0 +1,208 @@
+@import url(./root.css);
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.come_back {
+    width: 45px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+
+}
+
+
+
+.icon_profil {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+
+.div_icon_profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: skyblue;
+    border-radius: 100%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.div_icon_profil>p {
+    font-size: 45px;
+    margin: 0 25px 0 25px;
+}
+
+
+
+#img_easter_egg {
+    border-radius: 50%;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    position: absolute;
+
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'lato', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: #000000;
+    font-family: 'lato', sans-serif;
+}
+
+.container>form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    border: 2px solid transparent;
+    width: 16em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    color: #01051A;
+    margin-bottom: 20px;
+
+}
+
+.input:hover,
+.input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+
+
+
+
+hr {
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.boutton_log_out {
+    margin: 10px 10px 0 0;
+    padding: 0.4em 1.1em;
+    background-color: #BF0426;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+.boutton_log_out>a {
+    color: black;
+}
+
+
+.boutton_centrage {
+    margin: 10px 10px 0 0;
+    padding: 0.4em 1.1em;
+    background-color: #00A97F;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+#EditInfo {
+    margin: 10px 10px 0 0;
+    padding: 0.4em 1.1em;
+    background-color: #151414;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+
+#EditPass {
+    margin: 10px 10px 0 0;
+    padding: 0.4em 1.1em;
+    background-color: #151414;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.form>hr {
+    width: 100%;
+}
+
+.form>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form>form>hr {
+    width: 100%;
+}
+
+.message {
+    color: #ffffff;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
